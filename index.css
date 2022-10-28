@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+   
+
+}
+
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.description h1{
+    padding-top: 1rem;
+    letter-spacing: 5px;
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+}
+.description h2{
+    font-weight:bold;
+   font-size: xx-large;
+    padding-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.price{
+    display: flex;
+}
+.price #oldprice{
+      text-decoration: line-through;
+}
+.price #newprice{
+    font-family: 'Fraunces',sans-serif;
+    font-weight:bold;
+   color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    word-spacing: 1rem;
+   
+}
+ button{
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 1rem;
+   align-items: center;
+}
+
+.btn{
+    margin-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+} 
+.description p{
+    padding-top: 1rem;
+}
+.description{
+    border-top-right-radius: 0.5rem;
+   width:400px;
+  background-color: white;
+   padding: 2rem 2rem 2rem 2rem;
+   border-bottom-right-radius: 0.5rem;
+  
+}
+.image img{
+    height: 500px;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+.description p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.content{
+   
+    margin-top: 5rem;
+    display:flex;
+    justify-content: center;
+    
+    
+    
+    
+}
